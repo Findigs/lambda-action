@@ -1,4 +1,4 @@
-FROM appleboy/drone-lambda:1.1.4-linux-amd64
+FROM lambci/lambda:python3.6
 
 ADD entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
